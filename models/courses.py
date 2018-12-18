@@ -7,4 +7,6 @@ class OdooacademyCourse(models.Model):
     _description = 'Odoo Academy Course'
 
     name = fields.Char(string='Title')
-    responsible = fields.Char('Responsible')
+    responsible = fields.Many2one(
+        comodel_name='res.users',
+        string='Responsible')

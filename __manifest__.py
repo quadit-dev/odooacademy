@@ -10,8 +10,9 @@
     'license': 'AGPL-3',
     'application': True,
     'installable': True,
-    'depends': ['base'],
+    'depends': ['base', 'account'],
     'data': [
         'views/courses_view.xml',
+        'views/sessions_view.xml',
     ],
 }
