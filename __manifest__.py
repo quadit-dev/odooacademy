@@ -14,5 +14,6 @@
     'data': [
         'views/courses_view.xml',
         'views/sessions_view.xml',
+        'views/partner_view.xml',
     ],
 }

@@ -11,5 +11,5 @@ class OdooacademySession(models.Model):
     end_date = fields.Date('End Date')
     seats = fields.Integer('Seats')
     instructor_id = fields.Many2one(
-        comodel_name='res.users',
+        comodel_name='res.partner',
         string='Instructor')
